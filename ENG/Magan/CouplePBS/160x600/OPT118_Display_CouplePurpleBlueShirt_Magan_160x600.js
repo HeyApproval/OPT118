@@ -1010,21 +1010,21 @@ if (reversed == null) { reversed = false; }
 
 	// CTA
 	this.instance_1 = new lib.CTA();
-	this.instance_1.setTransform(100.5,275,1,1,0,0,0,0,10);
+	this.instance_1.setTransform(94.5,275,1,1,0,0,0,0,10);
 	this.instance_1._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(241).to({_off:false},0).wait(1));
 
 	// logo
 	this.instance_2 = new lib.logo();
-	this.instance_2.setTransform(78.9,229.1,1,1,0,0,0,0,20.1);
+	this.instance_2.setTransform(80.3,229.1,0.88,0.88,0,0,0,0.1,20.1);
 	this.instance_2._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(226).to({_off:false},0).wait(16));
 
 	// HEAD3
 	this.instance_3 = new lib.HEAD3();
-	this.instance_3.setTransform(143,115,1,1,0,0,0,0,38);
+	this.instance_3.setTransform(137,115,1,1,0,0,0,0,38);
 	this.instance_3.alpha = 0;
 	this.instance_3._off = true;
 
@@ -1035,7 +1035,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_4.setTransform(211,188.15,1,1,0,0,0,-150,15);
 	this.instance_4._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(198).to({_off:false},0).to({x:171.4},14,cjs.Ease.quadOut).wait(30));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(198).to({_off:false},0).to({x:165.4},14,cjs.Ease.quadOut).wait(30));
 
 	// HEAD2a
 	this.instance_5 = new lib.HEAD2a();
@@ -1099,8 +1099,8 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/OPT118_Display_CouplePurpleBlueShirt_Magan_160x600_atlas_P_1.png?1617835175225", id:"OPT118_Display_CouplePurpleBlueShirt_Magan_160x600_atlas_P_1"},
-		{src:"images/OPT118_Display_CouplePurpleBlueShirt_Magan_160x600_atlas_NP_1.jpg?1617835175225", id:"OPT118_Display_CouplePurpleBlueShirt_Magan_160x600_atlas_NP_1"}
+		{src:"images/OPT118_Display_CouplePurpleBlueShirt_Magan_160x600_atlas_P_1.png?1617993060516", id:"OPT118_Display_CouplePurpleBlueShirt_Magan_160x600_atlas_P_1"},
+		{src:"images/OPT118_Display_CouplePurpleBlueShirt_Magan_160x600_atlas_NP_1.jpg?1617993060516", id:"OPT118_Display_CouplePurpleBlueShirt_Magan_160x600_atlas_NP_1"}
 	],
 	preloads: []
 };
