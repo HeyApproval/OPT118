@@ -451,31 +451,31 @@ if (reversed == null) { reversed = false; }
 
 	this.shape_14 = new cjs.Shape();
 	this.shape_14.graphics.f("#63666A").s().p("AgiA5QgWgTAAgkQAAgkAVgUQAWgVAlAAQARAAAQAGIgCAZQgOgIgSAAQgWAAgNAPQgNAPAAAWQAAAYANAOQANAPAXAAQAUAAAMgGIABAYQgUAFgNAAQglAAgVgTg");
-	this.shape_14.setTransform(-38.575,14.325);
+	this.shape_14.setTransform(-39.575,14.325);
 
 	this.shape_15 = new cjs.Shape();
 	this.shape_15.graphics.f("#63666A").s().p("AAVBPIAAg9QAAgbgSAAQgLAAgGAJQgHAKAAAQIAAA1IgcAAIAAidIAcAAIAABAIABAAQALgRAWAAQASAAAKAMQAJALAAASIAABFg");
-	this.shape_15.setTransform(-51.625,13.775);
+	this.shape_15.setTransform(-52.625,13.775);
 
 	this.shape_16 = new cjs.Shape();
-	this.shape_16.graphics.f("#63666A").s().p("AgHA9QgJgJAAgQIAAg2IgVAAIAAgVIAVAAIAAgWIAbgJIAAAfIAZAAIAAAVIgZAAIAAAxQAAASANAAQAJAAAEgDIABAWQgJADgMAAQgRAAgHgKg");
-	this.shape_16.setTransform(-62.1,14.825);
+	this.shape_16.graphics.f("#63666A").s().p("AgIA9QgIgJgBgQIAAg2IgUAAIAAgVIAUAAIAAgWIAcgJIAAAfIAZAAIAAAVIgZAAIAAAxQAAASANAAQAJAAAEgDIABAWQgJADgMAAQgQAAgJgKg");
+	this.shape_16.setTransform(-63.1,14.825);
 
 	this.shape_17 = new cjs.Shape();
 	this.shape_17.graphics.f("#63666A").s().p("AgNBPIAAidIAbAAIAACdg");
-	this.shape_17.setTransform(-69.075,13.775);
+	this.shape_17.setTransform(-70.075,13.775);
 
 	this.shape_18 = new cjs.Shape();
 	this.shape_18.graphics.f("#63666A").s().p("AgkAwQgMgJAAgPQAAgkA0AAIASAAQAAgNgHgFQgGgFgLAAQgSAAgPALIgBgXQASgJATABQAYAAALAKQALALAAAYIAAAVQAAAYACATIgZAAIgBgQQgFAIgKAGQgIAEgKAAQgPABgLgJgAgVAXQAAANASAAQAKAAAHgHQAIgJAAgOIAAgCIgNAAQgeAAAAATg");
-	this.shape_18.setTransform(-78.025,16.25);
+	this.shape_18.setTransform(-79.025,16.25);
 
 	this.shape_19 = new cjs.Shape();
 	this.shape_19.graphics.f("#63666A").s().p("AgjAqQgPgPAAgbQAAgXANgPQANgSAYABQAaAAANAQQAMAQAAAgIhKAAQABANAIAGQAJAIAMAAQAQAAAUgLIAAAXQgQAJgVgBQgaAAgPgOgAAYgJQgCgagVAAQgKAAgGAHQgHAGgBANIAvAAIAAAAg");
-	this.shape_19.setTransform(-89.475,16.25);
+	this.shape_19.setTransform(-90.475,16.25);
 
 	this.shape_20 = new cjs.Shape();
 	this.shape_20.graphics.f("#63666A").s().p("AAdBJIAAhAIg5AAIAABAIgeAAIAAiRIAeAAIAAA7IA5AAIAAg7IAeAAIAACRg");
-	this.shape_20.setTransform(-102.875,14.325);
+	this.shape_20.setTransform(-103.875,14.325);
 
 	this.shape_21 = new cjs.Shape();
 	this.shape_21.graphics.f("#63666A").s().p("AAVBPIAAg9QAAgbgSAAQgLAAgGAJQgHAKAAAQIAAA1IgcAAIAAidIAcAAIAABAIABAAQALgRAWAAQASAAAKAMQAJALAAASIAABFg");
@@ -1073,21 +1073,21 @@ if (reversed == null) { reversed = false; }
 
 	// CTA
 	this.instance_1 = new lib.CTA();
-	this.instance_1.setTransform(100.5,275,1,1,0,0,0,0,10);
+	this.instance_1.setTransform(94.5,275,1,1,0,0,0,0,10);
 	this.instance_1._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(241).to({_off:false},0).wait(1));
 
 	// logo
 	this.instance_2 = new lib.logo();
-	this.instance_2.setTransform(78.9,229.1,1,1,0,0,0,0,20.1);
+	this.instance_2.setTransform(80.3,229.1,0.88,0.88,0,0,0,0.1,20.1);
 	this.instance_2._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(226).to({_off:false},0).wait(16));
 
 	// HEAD3
 	this.instance_3 = new lib.HEAD3();
-	this.instance_3.setTransform(143,115,1,1,0,0,0,0,38);
+	this.instance_3.setTransform(137,115,1,1,0,0,0,0,38);
 	this.instance_3.alpha = 0;
 	this.instance_3._off = true;
 
@@ -1098,7 +1098,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_4.setTransform(211,188.15,1,1,0,0,0,-150,15);
 	this.instance_4._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(198).to({_off:false},0).to({x:171.4},14,cjs.Ease.quadOut).wait(30));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(198).to({_off:false},0).to({x:165.4},14,cjs.Ease.quadOut).wait(30));
 
 	// HEAD2a
 	this.instance_5 = new lib.HEAD2a();
@@ -1170,8 +1170,8 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/OPT118_Display_WomanBlackTank_Monarch_160x600_atlas_P_1.png?1617835307206", id:"OPT118_Display_WomanBlackTank_Monarch_160x600_atlas_P_1"},
-		{src:"images/OPT118_Display_WomanBlackTank_Monarch_160x600_atlas_NP_1.jpg?1617835307206", id:"OPT118_Display_WomanBlackTank_Monarch_160x600_atlas_NP_1"}
+		{src:"images/OPT118_Display_WomanBlackTank_Monarch_160x600_atlas_P_1.png?1617993084883", id:"OPT118_Display_WomanBlackTank_Monarch_160x600_atlas_P_1"},
+		{src:"images/OPT118_Display_WomanBlackTank_Monarch_160x600_atlas_NP_1.jpg?1617993084883", id:"OPT118_Display_WomanBlackTank_Monarch_160x600_atlas_NP_1"}
 	],
 	preloads: []
 };
