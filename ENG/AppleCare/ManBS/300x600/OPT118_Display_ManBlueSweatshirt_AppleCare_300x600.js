@@ -1146,7 +1146,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_8.alpha = 0;
 	this.instance_8._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(89).to({_off:false},0).to({x:218,alpha:1},16,cjs.Ease.quadOut).wait(67).to({x:110},16,cjs.Ease.quadInOut).wait(60));
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(89).to({_off:false},0).to({x:218,alpha:1},16,cjs.Ease.quadOut).wait(67).to({x:98},16,cjs.Ease.quadInOut).wait(60));
 
 	// pic1
 	this.instance_9 = new lib.pic1();
@@ -1179,8 +1179,8 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/OPT118_Display_ManBlueSweatshirt_AppleCare_300x600_atlas_P_1.png?1617839218519", id:"OPT118_Display_ManBlueSweatshirt_AppleCare_300x600_atlas_P_1"},
-		{src:"images/OPT118_Display_ManBlueSweatshirt_AppleCare_300x600_atlas_NP_1.jpg?1617839218519", id:"OPT118_Display_ManBlueSweatshirt_AppleCare_300x600_atlas_NP_1"}
+		{src:"images/OPT118_Display_ManBlueSweatshirt_AppleCare_300x600_atlas_P_1.png?1617985538104", id:"OPT118_Display_ManBlueSweatshirt_AppleCare_300x600_atlas_P_1"},
+		{src:"images/OPT118_Display_ManBlueSweatshirt_AppleCare_300x600_atlas_NP_1.jpg?1617985538104", id:"OPT118_Display_ManBlueSweatshirt_AppleCare_300x600_atlas_NP_1"}
 	],
 	preloads: []
 };
